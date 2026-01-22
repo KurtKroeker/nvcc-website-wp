@@ -1,0 +1,33 @@
+# Ignore WordPress core files and directories
+wp-admin/
+wp-includes/
+
+# Ignore sensitive configuration files
+wp-config.php
+.htaccess
+
+# Ignore dynamic and temporary files
+managewp/cache/
+managewp/uploads/
+managewp/languages/
+*.log
+error_log
+
+# Ignore OS and editor-specific files
+.DS_Store
+.vscode/
+.idea/
+Thumbs.db
+
+# Exclude all third-party themes and plugins (optional, depends on workflow)
+managewp/themes/*
+managewp/plugins/*
+managewp/wp-content/themes/*
+managewp/wp-content/plugins/*
+
+# EXCEPT for your custom themes and plugins (use the '!' prefix to negate ignores)
+!managewp/themes/your-custom-theme-name/
+!managewp/plugins/your-custom-plugin-name/
+
+# If you choose to track all third-party plugins/themes, remove the two lines above
+# and ensure any custom work is tracked.
