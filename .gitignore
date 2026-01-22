@@ -24,6 +24,8 @@ managewp/themes/*
 managewp/plugins/*
 managewp/wp-content/themes/*
 managewp/wp-content/plugins/*
+!managewp/wp-content/themes/NativeChurch-child/
+!managewp/wp-content/themes/*.*
 
 # EXCEPT for your custom themes and plugins (use the '!' prefix to negate ignores)
 !managewp/themes/your-custom-theme-name/

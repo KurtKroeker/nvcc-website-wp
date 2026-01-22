@@ -1,0 +1,4 @@
+[01-Mar-2016 02:12:59 CST6CDT] PHP Fatal error:  Call to undefined function language_attributes() in /home/jmgsyste/public_html/nittanyvalley/wp-content/themes/NativeChurch-child/header.php on line 3
+[01-Mar-2016 02:13:00 CST6CDT] PHP Fatal error:  Call to undefined function is_front_page() in /home/jmgsyste/public_html/nittanyvalley/wp-content/themes/NativeChurch-child/footer.php on line 3
+[13-Mar-2016 06:21:10 CST6CDT] PHP Fatal error:  Call to undefined function is_front_page() in /home/jmgsyste/public_html/nittanyvalley/wp-content/themes/NativeChurch-child/footer.php on line 3
+[13-Mar-2016 13:38:15 CST6CDT] PHP Fatal error:  Call to undefined function is_front_page() in /home/jmgsyste/public_html/nittanyvalley/wp-content/themes/NativeChurch-child/footer.php on line 3

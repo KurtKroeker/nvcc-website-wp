@@ -1,0 +1,164 @@
+/*
+ Theme Name:     NativeChurch Child Theme
+ Theme URI:      http://preview.imithemes.com/native-church-wp
+ Description:    NativeChurch Child Theme
+ Author:         imithemes
+ Author URI:     http://www.imithemes.com
+ Template:       NativeChurch
+ Version:        1.2
+*/
+
+@import url(../NativeChurch/style.css);
+
+/* =Theme customization starts here
+------------------------------------------------------- */
+.home .slider-revolution-new {
+	top:0px !important;
+	margin-bottom: 0 !important;
+}
+.notice-bar {
+	margin-top:105px;
+}
+.topbar .col-md-8.col-sm-8.col-xs-12 {
+	margin:0px auto;
+	float:none;
+}
+.notice-bar, .navigation, .site-footer, .page-header {
+	background:#e5e5e5;
+}
+.navigation > ul > li > a {
+    padding: 0 20px;
+}
+.timer-col #hours, .timer-col #minutes, .timer-col #seconds {
+	background:#fff;
+}
+.site-footer-bottom {
+	background:#f5f5f5;
+}
+.widget ul > li, .listing-cont, .post-content {
+	border-color:#f5f5f5;
+}
+.comments-link {
+	display:none !important;
+}
+.page-id-17 #contactform {
+	display:none;
+}
+.widget.sidebar-widget.widget_selected_post {
+	background:url('http://nittanyvalleychildrenschoir.org/wp-content/uploads/2014/08/papercorner.png') no-repeat top right #e5e5e5;
+	padding:10px;
+}
+.widgettitle {
+	font-size:18px;
+}
+#footer-address {
+	font-size:18px;
+	line-height:36px;
+	margin-top:8px;
+	text-align:center;
+}
+.gform_wrapper input[type=text], .gform_wrapper input[type=url], .gform_wrapper input[type=email], .gform_wrapper input[type=tel], .gform_wrapper input[type=number], .gform_wrapper input[type=password], .gform_wrapper textarea {
+	border-radius:4px;
+	border:1px solid #ccc;
+	font-size:16px;
+	color:#333;
+	text-indent:8px;
+}
+.gform_wrapper .nvcc-address-block span#input_1_8_5_container {
+	clear:left;
+}
+.gform_wrapper ul li.gfield {
+	margin:30px 0px;
+}
+.copyrights-col-right.col-md-4.col-sm-4 {
+	text-align:right;
+}
+.home .textwidget, #text-11{
+	text-align:center;
+}
+.home .textwidget input, #text-11 input, .textwidget input {
+	width:230px;
+	height:70px;
+	border:0px;
+	box-shadow: none;
+	padding:0px;
+}
+#content a {
+	text-decoration:underline;
+	color:#233eb0 !important;
+}
+#content a.btn.btn-primary {
+	color:#fff !important;
+	text-decoration:none;
+}
+.paypal-button p {
+	text-align:center;
+}
+.breadcrumb {
+	font-size:24px;
+	text-shadow:1px 2px #000;
+}
+.table > tbody > tr > td {
+	vertical-align:middle;
+}
+.page-template-template-staff-php .grid-content {
+	min-height:250px;
+	margin-bottom:30px;
+}
+.site-footer-bottom a {
+	color:#233eb0;
+	text-decoration:none;
+}
+div#message {
+	padding:20px;
+}
+.widget {
+	margin-bottom:10px;
+}
+#text-14 {
+	margin-bottom:20px;
+}
+@media (max-width: 1023px) {
+	#nvcc-mini-menu h1.logo {
+		height:48px;
+		overflow:visible;
+	}
+	#nvcc-mini-menu {
+		float:none;
+		margin:0px auto;
+	}
+	#nvcc-hamburger {
+		position:absolute;
+		top:0px;
+		left:0px;
+	}
+	#nvcc-hamburger .menu-toggle {
+		float:none;
+	}
+	.site-header .topbar {
+		height:80px !important;
+	}
+	#text-8 {
+		margin-top:25px;
+	}
+	.site-footer .event-date .date {
+		font-size:20px;
+	}
+}
+@media (max-width: 639px) {
+	#nvcc-hamburger {
+		position: relative;
+		margin: 0px auto;
+		float: none;
+		top: auto;
+		left: auto;
+	}
+	#nvcc-hamburger .menu-toggle {
+		margin:0px;
+		text-align:center;
+	}
+}
+
+
+
+
