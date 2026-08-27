@@ -1,14 +1,13 @@
 <script>
-
-  const whiteChoirPrice = 100;
-  const blueChoirPrice = 130;
-  const concordiaPrice = 160;
+const whiteChoirPrice = 100;
+const blueChoirPrice = 130;
+const concordiaPrice = 160;
 
   const whiteChoirCountEl = document.getElementById('wpforms-119-field_13');
   const blueChoirCountEl = document.getElementById('wpforms-119-field_14');
   const concordiaCountEl = document.getElementById('wpforms-119-field_16');
-  const totalAmountEl = document.getElementById('wpforms-119-field_15');
-  const totalAmountLabelEl = document.querySelector('#wpforms-119-field_15-container span.wpforms-price');
+  const totalAmountEl = document.getElementById('wpforms-119-field_17');
+  const totalAmountLabelEl = document.querySelector('#wpforms-119-field_17-container span.wpforms-price');
 
   function calculateDiscount() {
     // It's 20% off for the 2nd child and 30% off for the 3rd+ child. This discount is applied to the TOTAL BILL!
@@ -16,7 +15,7 @@
     const blueChoirCount = parseInt(blueChoirCountEl.value ? blueChoirCountEl.value : 0);
     const concordiaCount = parseInt(concordiaCountEl.value ? concordiaCountEl.value : 0);
     const totalChildCount = whiteChoirCount + blueChoirCount + concordiaCount;
-    console.log('counts', whiteChoirCount, blueChoirCount, concordiaCount, totalChildCount);
+    //console.log('counts', whiteChoirCount, blueChoirCount, concordiaCount, totalChildCount);
     let whiteChoirCost = 0;
     let blueChoirCost = 0;
     let concordiaCost = 0;
@@ -32,13 +31,13 @@
     whiteChoirCost = whiteChoirCount * whiteChoirPrice;
     blueChoirCost = blueChoirCount * blueChoirPrice;
     concordiaCost = concordiaCount * concordiaPrice;
-    console.log('costs', whiteChoirCost, blueChoirCost, concordiaCost);
+    //console.log('costs', whiteChoirCost, blueChoirCost, concordiaCost);
 
     const totalCost = whiteChoirCost + blueChoirCost + concordiaCost;
     const totalCostAfterDiscount = totalCost - (totalCost * discount);
-    console.log(totalCost, totalCostAfterDiscount);
+    //console.log(totalCost, totalCostAfterDiscount);
     totalAmountEl.value = totalCostAfterDiscount;
-    totalAmountLabelEl.textContent = `$${totalCostAfterDiscount.toFixed(2)}`;
+    //totalAmountLabelEl.textContent = `$${totalCostAfterDiscount.toFixed(2)}`;
   }
 
   whiteChoirCountEl.addEventListener('change', () => {
